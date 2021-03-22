@@ -1,5 +1,6 @@
 # HR Analytics: Employee Attrition
 
+
 ## What is Attrition?
 
 o	it's a gradual reduction in workforce without firing or layoff of personnel, e.g. when workers resign
@@ -7,6 +8,7 @@ o	it's a gradual reduction in workforce without firing or layoff of personnel, e
 o	impacts all businesses, irrespective of industry, geography or size of company
 
 o	leads to significant costs for a business
+
 
 ## Objective
 
@@ -16,17 +18,20 @@ o	creating a prototype of a machine learning classification model to predict if 
 
 o	focusing on reducing the number of false negative predicted employees
 
+
 ## Dataset
 
 o	about 1.500 entries
 
 o	35 attributes
 
+
 ## Challenges
 
 o	small dataset
 
 o	highly imbalanced (target: No 84%, Yes 16%)
+
 
 ## Data Analysis Workflow
 
@@ -44,7 +49,8 @@ o	Cleaning the data.
 
 o	Analyzing the data.
 
-### 2. Approaches to Improve the Regression Model:
+
+### 2. Approaches to Improve the Classification Model:
 
 o	Upsampling
 
@@ -54,11 +60,7 @@ o	Defining Class Weights
 
 o	Hyperparameter Tuning
 
-### 3. ‘Raw’ Model vs. Improved Model:
-
 So far, I was able to decrease the False Negatives by 36% and to increase the True Positives yb 38%.
-
-<center> <img src="chart_repo.png" alt="Model"> 
 
 
 ## Key Insights
